@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD [ "Hello, Saioof!" ]
+CMD ["echo" ,"Hello, Saioof!" ]
