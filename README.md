@@ -1,18 +1,26 @@
-# Basic Dockerfile
-Basic Dockerfile project for [Roadmap.sh](https://roadmap.sh/projects/basic-dockerfile)
+# Basic Dockerfile Project
+
+This is a simple project from [Roadmap.sh](https://roadmap.sh/projects/basic-dockerfile) demonstrating how to build and run a basic Docker container.
+
+---
+
 ## Prerequisites
-You need to have [Docker](https://www.docker.com/) installed on your system to run this project
-## Installation
-### 1. Clone
+Make sure you have [Docker](https://www.docker.com/) installed on your system before running this project.
+
+---
+
+##  Installation & Usage
+
+### 1. Clone the Repository
 ```
 git clone https://github.com/saiioof/Devops-Projects.git
-cd Basic-Dockerfile-Roadmap.sh
+cd Devops-Projects
 ```
-### 2. Build
-`docker build -t first-docker .`
+### 2. Edit (Optional)
+You can edit the `Dockerfile` and replace **saioof** with your own name.
 
-`roadmap` can be any name you want it to be, `.` stands for current directory
-### 3. Run
+### 3. Run 
 `docker run first-docker`
-### 4. Output
-`Hello, Saioof!` should be printed to the terminal.
+ 
+### 4. Output 
+`Hello, Your name!` should be printed to the terminal.
